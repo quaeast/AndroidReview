@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LanguageExpert</string>
+    <string name="button">find language</string>
+    <string-array name="features">
+        <item>fast</item>
+        <item>easy</item>
+        <item>new</item>
+        <item>OO</item>
+    </string-array>
+</resources>
