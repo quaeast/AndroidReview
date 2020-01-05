@@ -1,4 +1,4 @@
-package bjfu.it.fangzidong.starbuzz;
+package bjfu.it.fangzidong.starbuzzdb;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        AdapterView.OnItemClickListener itemClickListener=new AdapterView.OnItemClickListener() {
+        AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        ListView listView = findViewById(R.id.top_list);
-        listView.setOnItemClickListener(itemClickListener);
+        ListView kindList = findViewById(R.id.kind_list);
+        kindList.setOnItemClickListener(onItemClickListener);
+
+
     }
 }
