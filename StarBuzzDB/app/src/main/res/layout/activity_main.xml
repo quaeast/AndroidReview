@@ -23,8 +23,17 @@
         <ListView
             android:id="@+id/kind_list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:entries="@array/kind_list" />
+            android:layout_height="wrap_content"
+            android:entries="@array/kind_list">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPressPlay"
+            android:text="@string/play" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position==0){
+                if (position == 0) {
                     Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                     startActivity(intent);
                 }
@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         ListView kindList = findViewById(R.id.kind_list);
         kindList.setOnItemClickListener(onItemClickListener);
 
+    }
 
+    public void onPressPlay(View view) {
+       Intent intent = new Intent(MainActivity.this, PlayMusicService.class);
+       startService(intent);
     }
 }

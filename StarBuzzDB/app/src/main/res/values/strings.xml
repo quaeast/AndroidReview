@@ -6,4 +6,5 @@
         <item>food</item>
         <item>others</item>
     </string-array>
+    <string name="play">play</string>
 </resources>
