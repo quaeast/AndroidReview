@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Number</string>
+    <string name="start_input_hint">Input Your Number and Name Here</string>
+    <string name="start_button_start">SEND MESSAGE!</string>
+</resources>

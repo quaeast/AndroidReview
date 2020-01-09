@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BJFUClass</string>
+    <string-array name="school_name">
+        <item>School of Information</item>
+        <item>School of Forestry</item>
+        <item>School of Landscape Architecture</item>
+    </string-array>
+    <string name="play_music_button_name">PLAY MUSIC</string>
+    <string name="favorite_checkbox_name">Favorite</string>
+    <string name="top_favorite_title_name">Your favorite classes</string>
+</resources>
